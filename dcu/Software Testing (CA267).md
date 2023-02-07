@@ -89,25 +89,41 @@
 
 # Testing
 
-- #### Testing is the systematic exploration of a component/system with the main aim of finding and reporting defects.
+ >"Testing is the systematic exploration of a component/system with the main aim of finding and reporting defects"
 
 ## Objectives:
-- ##### Finding defects
-- ##### Gaining confidence on quality level
-- ##### Provide information on defects
-- ##### Prevent future defects from occurring
 
-## Types of Testing
-- ##### Regression/Maintenance Testing
-- ##### Operational Testing
+- Finding defects
+- Gaining confidence on quality level
+-  Provide information on defects
+- Prevent future defects from occurring
 
-## Types of Dynamic Testing
-- ##### Integration Testing
-- ##### Unit Testing
-- ##### System Testing
+## Who does the testing?
 
-- ### Static Testing is testing without executing the program.
-- ### Dynamic Testing is testing by executing the program with real inputs.
+- Programmers
+- Users (With support)
+- Independent teams/ organistations (Formally)
+
+## Test team roles
+
+- ### Test manager
+	Plan, organise, manage and controls the testing.
+- ### Tester
+	prep test procedures, data enviroments & expected results.
+	execute tests and log incidents.
+	execute re-tests and regression tests.
+- ### Test Analyst
+	scope the testing, conduct expert interviews
+	document test specs
+	prepare test reports 
+- ### Test automation technician
+	record code and test automated scripts
+	prep test data + expected results
+	execute automated scripts
+
+
+
+
 
 
 
