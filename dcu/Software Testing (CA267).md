@@ -121,14 +121,58 @@
 	prep test data + expected results
 	execute automated scripts
 
+## Expected Results
 
+> "Specifications, requirements ect. define what the soft ware is required to do"
 
+### Testers need them to :
+- identify the things that need testing
+- compare test results with requirments
 
+> "A baseline document describes how we require the system to behave"
 
+## Failure to define expected results...
+- can result in erroneous results being interperated as correct.
+- there may be a subconscious desire to see the software pass the test.
 
+### *Expected results must be defined before test execution, derived from a baseline*
 
+## Exit, Completion, Closure or Acceptance criteria
 
+### Trigger to say:
 
+> "we've done enough"
+
+### Hitting some measurable/achievable target for example:
+
+	- 80% coverage achieved
+	- all tests executed without failure
+	- all outstanding incidents waived
+	- all critical business scenarios covered
+
+# Fundamental Test Process
+
+## What is a test?
+
+### A test is a controlled exercise involving:
+
+	  an object under test
+	  a definition of the enviroment
+	  a definition of the inputs
+	  a definition of the outputs or results
+
+### When a test is preformed you get...
+
+	an actual output or result
+	a determination whether the result is correct.	
+
+- When a test is ran we must have an expected result derived from the baseline.
+- An actual result either matches or does not the expected
+- Difference == fault,  therefore investigation is in order.
+
+## Test analysis
+
+> "Test analysis is the activity where tangible test conditions and test designs are derived from the baseline documents"
 
 
 
