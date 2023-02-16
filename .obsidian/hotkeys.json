@@ -16,5 +16,13 @@
       ],
       "key": "N"
     }
+  ],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "P"
+    }
   ]
 }
