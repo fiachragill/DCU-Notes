@@ -112,3 +112,75 @@ scores[0] // = 1
 scores[1] // = 2
 //ect.
 ````
+
+## Polymorphism
+
+- Base Animal class:
+
+````java
+public class Animal {
+	private String name;
+	private String colour;
+
+	public void eat() {
+		System.out.println("munch");
+	}
+
+	public String getName() {
+		return name
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+}
+````
+
+- Dog class (an extension of the animal class)
+
+````java
+public class Dog extends Animal {
+	private String breed; // adds new attribute (3 attributes now: name, colour and breed)
+
+	@Override //good practice to mark override.
+	public void eat() { // overrides eat function as seen in output.
+		System.out.println("bark bark");
+	}
+
+	public String getBreed {
+		return breed
+	}
+
+	public void setBreed(String breed) {
+		this.breed = breed;
+	}
+
+	public void jump() {
+		super.eat(); // the use of the super keyword will call eat from parent(Animal class)
+		// i.e it's state prior to being overridden.
+	}
+}
+````
+
+- Testing class
+
+````java
+
+public class TestPolymorphism {
+	public static main(String[] args) {
+
+		Animal myAnimal = new Animal();
+		myAnimal.eat();
+
+		Dog myDog = new Dog();
+		myDog.eat();
+	}
+}
+````
+
+````txt
+Output:
+========
+"munch"
+"bark bark"
+````

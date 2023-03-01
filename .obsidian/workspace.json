@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "27b6ba2ee4e162c1",
+        "id": "7bafc0aaaa30a590",
         "type": "tabs",
         "children": [
           {
-            "id": "3b12e1553de17d73",
+            "id": "1830ad4a92b8a1f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dcu/Introduction to Databases (CA218).md",
+                "file": "dcu/JAVA - OOP.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d427ee248c19e1b9",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dcu/Introduction to Databases (CA218).md",
+                "file": "dcu/JAVA - OOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dcu/Introduction to Databases (CA218).md",
+                "file": "dcu/JAVA - OOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dcu/Introduction to Databases (CA218).md"
+                "file": "dcu/JAVA - OOP.md"
               }
             }
           }
@@ -147,14 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b12e1553de17d73",
+  "active": "1830ad4a92b8a1f2",
   "lastOpenFiles": [
-    "dcu/Software Testing (CA267).md",
+    "Untitled 1.md",
     "dcu/JAVA - OOP.md",
+    "dcu/Introduction to Databases (CA218).md",
+    "dcu/Software Testing (CA267).md",
     "dcu/Test.md",
     "Pasted image 20230202171117.png",
     "Untitled.md",
-    "Untitled 1.md",
     "dcu/template/Untitled.md",
     "Untitled.canvas",
     "dcu/Course Schedule.md"

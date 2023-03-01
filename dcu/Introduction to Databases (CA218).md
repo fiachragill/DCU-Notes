@@ -24,8 +24,13 @@ In the relational model, relations are used to hold inofrmation about the object
 
 ## Relational Data Structure
 
+- A relation is a table with columns and rows.
+
 ![[Pasted image 20230216184326.png]]
 ![[Pasted image 20230216184354.png]]
+
+> ![[Pasted image 20230216193450.png]]
+
 ![[Pasted image 20230216185347.png]]
 ![[Pasted image 20230216185536.png]]
 ![[Pasted image 20230216185428.png]]
