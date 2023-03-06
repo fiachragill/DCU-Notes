@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f45eeb183d64b154",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dcu/Fullstack Development.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dcu/JAVA - OOP.md",
+                "file": "dcu/Fullstack Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dcu/JAVA - OOP.md",
+                "file": "dcu/Fullstack Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dcu/JAVA - OOP.md"
+                "file": "dcu/Fullstack Development.md"
               }
             }
           }
@@ -146,10 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1830ad4a92b8a1f2",
+  "active": "f45eeb183d64b154",
   "lastOpenFiles": [
-    "Untitled 1.md",
     "dcu/JAVA - OOP.md",
+    "dcu/Fullstack Development.md",
+    "dcu/Full Stack Development",
+    "Untitled 1.md",
     "dcu/Introduction to Databases (CA218).md",
     "dcu/Software Testing (CA267).md",
     "dcu/Test.md",
