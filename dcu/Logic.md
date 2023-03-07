@@ -99,5 +99,9 @@ north(A, B) :- directly_north(A, B).
 /* A is north of B if it is directly north (obv) */
 
 north(A, B) :- directly_north(A, C), north(C, B).
-/* A is north of B if */
+/* A is north of B if A is directly north of a point C that calls recursively */
+
+northeast(A, B) :- north(A, C), east(C, B).
 ````
+
+
