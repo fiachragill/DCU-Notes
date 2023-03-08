@@ -60,6 +60,17 @@ General List Structure in Prolog:
 	Head|Tail     Head|Tail     Head|Tail     Head|Tail     Head|Tail
 ````
 
+Check for variable X in a List:
+
+````C
+is_var(X, [X | _]). /* check if element X in param is head of list*/
+is_var(X, [_ | T]) :- is_var(X, T) 
+/* 
+calls the prev method but with the Tail of 
+the List as the whole List.
+*/
+````
+
 > Code below will recursively move through the list and check if the head is a holiday book or not 
 
 ````C
@@ -99,9 +110,18 @@ north(A, B) :- directly_north(A, B).
 /* A is north of B if it is directly north (obv) */
 
 north(A, B) :- directly_north(A, C), north(C, B).
-/* A is north of B if A is directly north of a point C that calls recursively */
+/* A is north of B if A is directly north of a point C that is north of B.
+   ie. we move along checking if there exists a point north of B that A is directly
+   north of.
+*/
 
 northeast(A, B) :- north(A, C), east(C, B).
+/*
+	north and east calls recursivly untill it either runs out of points ot until it
+	finds a point c that is both south of A and east of B
+*/
 ````
+
+
 
 
